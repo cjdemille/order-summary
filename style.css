@@ -1,0 +1,136 @@
+body{
+    background-color:hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url('images/pattern-background-mobile.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+}
+.card{
+    background-color:white;
+    border-radius: 1em;
+    width:30%;
+    min-width:430px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.header-img{
+    border-top-left-radius:1em;
+    border-top-right-radius:1em;
+    width:100%;
+    height:auto;
+    margin-bottom: 1em;
+}
+
+p{
+    color:hsl(224, 23%, 55%);
+    width: 87%;
+    margin:6.5%;
+    box-sizing:border-box;
+    margin-bottom:2em;
+
+}
+
+.plan-box{
+    display:flex;
+    align-items:center;
+    /* justify-content: space-between; */
+    padding:1.5em 1em;
+    border-radius:1em;
+    width: 87%;
+    margin:6.5%;
+    box-sizing:border-box;
+    background-color:hsl(225, 100%, 98%) ;
+}
+
+.music-icon{
+padding-right:1em;
+}
+.plan-box a{
+    justify-self:end;
+    text-align: right;
+}
+.plan-type{
+    margin:0;
+    padding:0;
+    padding-right:30%;
+}
+.plan-type h2{
+    font-size:1em;
+
+    text-align: left;
+    margin:0;
+}
+.plan-type p{
+    margin:0;
+}
+
+.proceed{
+    border:none;
+    background-color:hsl(245, 75%, 52%);
+    border-radius:.5em;
+    padding:1em;
+    display:block;
+    box-sizing:border-box;
+    width: 87%;
+    margin: 1em 6.5%;
+    color:white;
+    font-family:'Red Hat Display', sans-serif;
+    font-weight:700;
+    box-shadow: .3em .2em .5em .2em hsla(224, 23%, 55%, .5);
+}
+
+.cancel{
+    border:none;
+    background-color: white;
+    border-radius:.5em;
+    padding:1em;
+    display:block;
+    box-sizing:border-box;
+    width: 87%;
+    margin: 1em 6.5%;
+    color:hsl(224, 23%, 55%);
+    font-family:'Red Hat Display', sans-serif;
+    font-weight:700;
+}
+
+a, button:hover{
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+.proceed:hover{
+    background-color: hsl(223, 47%, 23%);
+}
+
+.cancel:hover{
+    color:hsl(223, 47%, 23%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+
+  @media (min-width:600px) {
+      body{
+        background-image: url('images/pattern-background-desktop.svg');
+      }
+    
+      
+  }
