@@ -1,0 +1,34 @@
+.btn {
+    display: block;
+    text-align: center;
+    width: 80%;
+    border-radius: .7rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+
+    &--proceed,
+    &--proceed:visited {
+        color: white;
+        background-color: $color-bright-blue;
+        transition: all .2s;
+    }
+
+    &--proceed:hover {
+        background-color: $color-hover;
+        cursor: pointer;
+    }
+
+    &--cancel,
+    &--cancel:link,
+    &--cancel:visited {
+        color: $color-desaturated-blue;
+        transition: all .2s;
+    }
+
+    &--cancel:hover {
+        color: $color-dark-blue;
+        cursor: pointer;
+    }
+}

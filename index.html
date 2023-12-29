@@ -14,31 +14,31 @@
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
 
   <!-- custom css -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Frontend Mentor | Order summary card</title>
 </head>
 
 <body>
   <main>
     <section class="card">
-      <img src="images/illustration-hero.svg" alt="illsutration of someone dancing" class="header-img">
-      <div class="card-body">
-        <h1>Order Summary</h1>
-        <p>
+      <img src="images/illustration-hero.svg" alt="illsutration of someone dancing" class="card__header-img">
+      <div class="card__body">
+        <h1 class="card__heading">Order Summary</h1>
+        <p class="card__text">
           You can now listen to millions of songs, audiobooks, and podcasts on any
           device anywhere you like!
         </p>
 
-        <div class="plan-box">
-          <img src="images/icon-music.svg" alt="Music Icon" class="music-icon">
+        <div class="plan">
+          <img src="images/icon-music.svg" alt="Music Icon" class="icon--music">
           <div class="plan-type">
-            <h2>Annual Plan</h2>
-            <p>$59.99/year</p>
+            <h2 class="plan__heading">Annual Plan</h2>
+            <span class="plan__price">$59.99/year</span>
           </div>
-          <a href="#">Change</a>
+          <a href="#" class="plan__link">Change</a>
         </div>
-        <button class="proceed">Proceed to Payment</button>
-        <button class="cancel">Cancel Order</button>
+        <a class="btn btn--proceed">Proceed to Payment</a>
+        <a class="btn btn--cancel">Cancel Order</a>
       </div>
 
     </section>

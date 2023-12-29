@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: url(../images/pattern-background-mobile.svg), hsl(225, 100%, 94%);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 1210px) {
+  body {
+    background: url(../images/pattern-background-desktop.svg), hsl(225, 100%, 94%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  width: 80%;
+  border-radius: 0.7rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.btn--proceed, .btn--proceed:visited {
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  transition: all 0.2s;
+}
+.btn--proceed:hover {
+  background-color: #766CF1;
+  cursor: pointer;
+}
+.btn--cancel, .btn--cancel:link, .btn--cancel:visited {
+  color: hsl(224, 23%, 55%);
+  transition: all 0.2s;
+}
+.btn--cancel:hover {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+
+.card {
+  width: 80%;
+  max-width: 40rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  background-color: white;
+}
+.card__header-img {
+  margin-bottom: 3rem;
+  width: 100%;
+}
+.card__heading {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+.card__text {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  width: 80%;
+  margin: 0 10% 3rem;
+}
+
+.plan {
+  width: 80%;
+  margin: 0 auto;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+  position: relative;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+.plan .icon--music {
+  padding-right: 1.5rem;
+}
+.plan__link:link, .plan__link:visited {
+  position: absolute;
+  right: 1rem;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  font-size: 1.3rem;
+  transition: all 0.2s;
+}
+.plan__link:hover {
+  color: #766CF1;
+  cursor: pointer;
+  text-decoration: none;
+}
+.plan__heading {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+.plan__price {
+  color: hsl(224, 23%, 55%);
+  font-size: 1.4rem;
+}
+
+/*# sourceMappingURL=style.css.map */

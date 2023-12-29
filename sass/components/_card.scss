@@ -1,0 +1,33 @@
+.card {
+    width: 80%;
+    max-width: 40rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    background-color: white;
+
+    &__header-img {
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+
+    &__heading {
+        text-align: center;
+        font-size: 2.2rem;
+        font-weight: 900;
+        margin-bottom: 2rem;
+    }
+
+    &__text {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        font-weight: 300;
+        color: $color-desaturated-blue;
+        text-align: center;
+        width: 80%;
+        margin: 0 10% 3rem;
+    }
+}
