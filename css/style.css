@@ -23,6 +23,13 @@ body {
   }
 }
 
+footer {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 * {
   font-family: "Red Hat Display", sans-serif;
 }
